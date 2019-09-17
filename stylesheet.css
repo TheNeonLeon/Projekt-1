@@ -1,0 +1,170 @@
+/* The whole code targets the contact page*/
+body{
+    margin: 0;
+    background: #E5E5E5;
+}
+.header{
+    padding: 9%;
+    padding-bottom: 0.1%;
+    background-color: #C7DDEA;
+    display: flex;
+}
+.header-text{
+    display:flex;
+    justify-content: center;
+    padding-left: 38%;
+    padding-top: 8%;
+    font-size: 30px;
+    width: 50%;
+    font-family: 'Frank Ruhl Libre';
+    font-weight: bold;
+}
+/* picture of man and child*/
+.man-child{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-left: 25%;
+}
+/* The navbar on the page*/
+.nav{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 150px;
+    background: #FFFFFF;
+    margin:0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Fira Sans';
+    color: #000000;
+}
+/*Contact CSS*/
+.contact, a:link{
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    font-weight: bold;
+    color: black;
+
+}
+a:visited{
+    font-weight: bold;
+    color: black;
+}
+a:hover{
+    font-weight: bold;
+    color: black;
+
+}
+.main{
+    background: #A9A19E;
+    padding-top: 10%;
+    padding-bottom: 12%;
+
+
+}
+.main-header{
+    padding-left: 6%;
+    font-family: 'Frank Ruhl Libre';
+    font-size: 45px;
+    color: #FFFFFF;
+
+}
+
+.contact{
+    text-align: center;         /* contact form*/
+    
+  
+}
+.brake{
+    padding-top: 5%;
+    color: #FFFFFF;
+    font-family: 'Fira Sans';
+    font-size: 14px;
+
+}
+.box-1{
+    border: 1px solid #FEFEFE;          /* The first box on the page*/
+    background: #FEFEFE;
+    border-radius: 2px;
+    padding: 1.5%;
+    padding-left: 30%;
+    margin-left: 47.4%;
+    margin-right: 30%;
+
+}
+
+.box-2{
+    border: 1px solid #FEFEFE;          /* The second box on the page*/
+    background: #FEFEFE;
+    border-radius: 2px;
+    padding: 1.5%;
+    padding-left: 30%;
+    padding-bottom: 8%;
+    margin-left: 47%;
+    margin-right: 30%;
+    
+}
+
+.email{
+color: #FFFFFF;
+font-family: 'Fira Sans';
+font-size: 14px;
+}
+
+
+button{
+    border: 2px solid #FFFFFF ;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 40%;
+    padding:15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Fira Sans';
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    
+}
+/* the footer of the contact page*/
+.footer{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 53px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    background: #777574;
+    padding-bottom: 25%;
+    grid-column: 2 / span 4;
+}
+.map{ 
+   background: url("map-contact.png") no-repeat center center fixed;
+   width: 100%;
+   padding-bottom: 0;
+   grid-column: 1 / span 12;
+   
+}
+i{
+  position: absolute;
+  top: 290%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  size: 100px;
+  display: grid;
+  grid-column: 1 / span 12;
+}
+.footer-box-2{
+    border: 1px solid #FAB131;
+    background: #FAB131;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-column: 2/ span 4;
+    grid-row: 2 / 4;
+    padding-left: 5%;
+    color: #FFFFFF;
+    
+}
+
