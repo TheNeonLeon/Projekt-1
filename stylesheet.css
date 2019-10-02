@@ -1,6 +1,8 @@
 /* The whole code targets the contact page*/
 body{
     margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
     background: #E5E5E5;
 }
 .header{
@@ -12,19 +14,22 @@ body{
 .header-text{
     display:flex;
     justify-content: center;
-    padding-left: 38%;
-    padding-top: 8%;
-    font-size: 30px;
-    width: 50%;
+    font-size: 45px;
+    letter-spacing: -0.02em;
     font-family: 'Frank Ruhl Libre';
     font-weight: bold;
+    font-style: normal;
+    padding-left: 10%;
+    padding-top: 8%;
+    position: absolute;
 }
 /* picture of man and child*/
 .man-child{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding-left: 25%;
+    padding-left: 70%;
+    padding-right: 10%;
 }
 /* The navbar on the page*/
 .nav{
@@ -32,7 +37,7 @@ body{
     flex: 1;
     justify-content: space-evenly;
     list-style-type: none;
-    padding-left: 0;
+    padding-left: 12%;
     padding-right: 150px;
     background: #FFFFFF;
     margin:0;
@@ -43,6 +48,7 @@ body{
 }
 /*Contact CSS*/
 .contact, a:link{
+    font-weight: bold;
     text-decoration: none;
     color: black;
 }
@@ -68,10 +74,15 @@ a:hover{
 
 }
 .main-header{
+    width: 314px;
+    height: 140px;
+    line-height: 100%;
+    position: absolute;
     padding-left: 6%;
     font-family: 'Frank Ruhl Libre';
     font-size: 45px;
     color: #FFFFFF;
+    margin: 0;
 
 }
 
@@ -85,6 +96,7 @@ a:hover{
     color: #FFFFFF;
     font-family: 'Fira Sans';
     font-size: 14px;
+    padding-left: 2%;
 
 }
 .box-1{
@@ -109,11 +121,19 @@ a:hover{
     margin-right: 30%;
     
 }
+.box-2-para{
+    position: absolute;
+    top: 740px;
+    left: 620px;
+    font-family: Fira Sans;
+    font-size: 14px;
+}
 
 .email{
 color: #FFFFFF;
 font-family: 'Fira Sans';
 font-size: 14px;
+padding-left: 1.5%;
 }
 
 
@@ -134,7 +154,7 @@ button{
 .footer{
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 53px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 38px;
     grid-template-rows: 100px 100px 100px 100px 100px;
     background: #777574;
     padding-bottom: 25%;
@@ -142,29 +162,55 @@ button{
 }
 .map{ 
    background: url("map-contact.png") no-repeat center center fixed;
-   width: 100%;
+   width: 103.1%;
    padding-bottom: 0;
-   grid-column: 1 / span 12;
+   grid-column: 1 / span 9;
    
 }
 i{
   position: absolute;
-  top: 290%;
+  top: 220%;
   left: 50%;
   transform: translate(-50%, -50%);
   size: 100px;
   display: grid;
   grid-column: 1 / span 12;
+  
 }
 .footer-box-2{
     border: 1px solid #FAB131;
     background: #FAB131;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
     display: grid;
-    grid-column: 2/ span 4;
+    grid-column: 2/ span 3;
     grid-row: 2 / 4;
-    padding-left: 5%;
-    color: #FFFFFF;
-    
+    padding-left: 2%;
+    color: #FFFFFF;   
+    position: absolute;
+    height: 206px;
+    left: 220px;
+    top: 1080px;   
+    width: 310px;
+
+}
+.footer-heading{
+    font-size: 45px;
+    font-family: 'Frank Ruhl Libre';
+
+}
+.street{
+    position: absolute;
+    font-family: Fira Sans;
+    width: 277px;
+    left: 30px;
+    top: 75px;
+
+}
+.city{
+    position: absolute;
+    font-family: Fira Sans;
+    width: 277px;
+    left: 32px;
+    top: 100px;
 }
 
