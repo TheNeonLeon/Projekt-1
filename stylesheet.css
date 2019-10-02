@@ -147,6 +147,7 @@ button{
     padding-left: 40px;
     padding-right: 40px;
     font-family: 'Fira Sans';
+    font-weight: bold;
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
     
 }
